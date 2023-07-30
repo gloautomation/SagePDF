@@ -58,9 +58,9 @@ def ui_spacer(n=2, line=False, next_n=0):
 	for _ in range(next_n):
 		st.write('')
 
-def ui_image():
-    image = Image.open('Slide2.jpg')
-    st.image(image, width=200)
+#def ui_image():
+#    image = Image.open('Slide2.jpg')
+#    st.image(image, width=200)
 def ui_info():
 	st.markdown(f"""
 	# Ask my PDF
@@ -306,9 +306,9 @@ def output_add(q,a):
 
 # LAYOUT
 
-with st.sidebar:
-	ui_image()
-	ui_spacer(1)
+#with st.sidebar:
+#	ui_image()
+#	ui_spacer(1)
    
 
 with st.sidebar:
