@@ -1,5 +1,5 @@
 __version__ = "1.0"
-app_name = "SagePDF_SGA"
+app_name = "SagePDF"
 
 
 # BOILERPLATE
